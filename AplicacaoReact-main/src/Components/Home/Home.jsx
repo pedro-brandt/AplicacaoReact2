@@ -26,11 +26,8 @@ export default function Home() {
           <h3 className="title">Quem nós somos:</h3>
           <p className="description">
             <img
-              className="about-img"
-              src="https://roldao.com.br/wp-content/uploads/2020/03/Gest%C3%A3o-de-estoque-Blog-do-Rold%C3%A3o.jpg"
-              alt="Gestão de Estoque"
-              width={600}
-              height={400}
+              className="about-img" src="https://roldao.com.br/wp-content/uploads/2020/03/Gest%C3%A3o-de-estoque-Blog-do-Rold%C3%A3o.jpg"
+              alt="Gestão de Estoque" width={600} height={400}
             />
             Somos uma empresa focada no ramo de gerenciamento de estoque...
           </p>
@@ -41,28 +38,19 @@ export default function Home() {
           <div className="product-list">
             <div className="product">
               <img
-                src="https://jasminealimentos.com/wp-content/uploads/2017/07/como-escolher-os-melhores-alimentos-1.jpg"
-                alt="Alimentos"
-                width={400}
-                height={200}
+                src="https://jasminealimentos.com/wp-content/uploads/2017/07/como-escolher-os-melhores-alimentos-1.jpg" alt="Alimentos" width={400} height={200}
               />
               <p>Alimentos</p>
             </div>
             <div className="product">
               <img
-                src="https://bahiaeconomica.com.br/wp/wp-content/uploads/2024/09/patio-da-vports-recebe-carros-importados-2075839.webp"
-                alt="Carros"
-                width={400}
-                height={200}
+                src="https://bahiaeconomica.com.br/wp/wp-content/uploads/2024/09/patio-da-vports-recebe-carros-importados-2075839.webp" alt="Carros" width={400} height={200}
               />
               <p>Carros</p>
             </div>
             <div className="product">
               <img
-                src="https://blog.damasemijoias.com.br/wp-content/uploads/2017/08/como-organizar-um-estoque-de-semijoias-aprenda-810x485.jpeg"
-                alt="Joias"
-                width={400}
-                height={200}
+                src="https://blog.damasemijoias.com.br/wp-content/uploads/2017/08/como-organizar-um-estoque-de-semijoias-aprenda-810x485.jpeg" alt="Joias" width={400} height={200}
               />
               <p>Joias</p>
             </div>

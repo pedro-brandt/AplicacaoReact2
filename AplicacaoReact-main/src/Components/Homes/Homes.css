@@ -1,124 +1,15 @@
-
-.menu-container{
-    background-color: rgb(147, 198, 234);
-}
-
-
-.menu-container{
-    display: flex;
-   text-align: center;
-}
-button{
-        background-color: #04AA6D;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        display: inline-block;
-}
-.bts{
-    margin: 1rem;
-    display: flex;
-    gap: 10;
-}
-img{
-    float: right;
-    margin: right;
-}
-.txt{
-    font-size: large;
-}
-.App-pai , .App2{
-    display: flex;
-    flex-direction: column;
-}
-
-.App-filho{
-margin: 1rem;
-}
- #img1{
-    margin-right: 5rem;
-}
-#txt2{
-    margin-left: 2rem;
-    font-size: large;
-}
-.App2{
-    flex-direction: row;
- margin: 1rem;
-}
-.Alimentos ,.Carros , .Joias{
-    font-size: large;
-    text-align: center;  
-}
-
-*{
-    margin: 0 auto;
+* {
+    margin: 0;
     padding: 0;
 }
 
-.menu-container{
+.menu-container {
     background-color: rgb(147, 198, 234);
-}
-
-
-.menu-container{
     display: flex;
-   text-align: center;
-}
-button{
-        background-color: #04AA6D;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        display: inline-block;
-}
-.bts{
-    margin: 1rem;
-    display: flex;
-    gap: 10;
-}
-img{
-    float: right;
-    margin: right;
-}
-.txt{
-    font-size: large;
-}
-.App-pai , .App2{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
-.App-filho{
-margin: 1rem;
-}
- #img1{
-    margin-right: 5rem;
-}
-#txt2{
-    margin-left: 2rem;
-    font-size: large;
-}
-.App2{
-    flex-direction: row;
- margin: 1rem;
-}
-.Alimentos ,.Carros , .Joias{
-    font-size: large;
-    text-align: center;  
-}
-
-.prod{
+button {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -128,7 +19,61 @@ margin: 1rem;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    display: inline-block;  
-    display: flex;
+    display: inline-block;
 }
 
+.bts {
+    margin: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.txt {
+    font-size: large;
+}
+
+.App-pai, .App2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.App-filho {
+    margin: 1rem;
+}
+
+#img1 {
+    margin-right: 5rem;
+}
+
+#txt2 {
+    margin-left: 2rem;
+    font-size: large;
+}
+
+.App2 {
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.Alimentos, .Carros, .Joias {
+    font-size: large;
+    text-align: center;
+}
+
+.prod {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+}

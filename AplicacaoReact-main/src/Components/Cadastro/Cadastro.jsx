@@ -11,29 +11,43 @@ const Cadastro = () => {
         <p className="info-text">Insira seus dados para cadastro.</p>
 
         <label htmlFor="nome" className="label-text">
-          Nome:  
-          <textarea id="nome" minLength="20" maxLength="27"></textarea>
+          Nome:
+          <input
+            id="nome"
+            type="text"
+            minLength="20"
+            maxLength="27"
+            required
+          />
         </label>
 
         <label htmlFor="senha" className="label-text">
-          Senha:  
-          <textarea id="senha" minLength="6" maxLength="10"></textarea>
+          Senha:
+          <input
+            id="senha"
+            type="password"
+            minLength="6"
+            maxLength="10"
+            required
+          />
         </label>
 
         <label htmlFor="confirmacao" className="label-text">
-          Confirme a senha:  
-          <textarea id="confirmacao" minLength="6" maxLength="10"></textarea>
+          Confirme a senha:
+          <input
+            id="confirmacao"
+            type="password"
+            minLength="6"
+            maxLength="10"
+            required
+          />
         </label>
 
         <input className="button salvar" type="submit" value="Salvar" />
 
-        <button className="button" id="login-button">
-          <Link to="/login">Login</Link>
-        </button>
+        <Link to="/login" className="button" id="login-button">Login</Link>
         
-        <button className="button" id="home-button">
-          <Link to="/">Início</Link>
-        </button>
+        <Link to="/" className="button" id="home-button">Início</Link>
       </form>
     </div>
   );

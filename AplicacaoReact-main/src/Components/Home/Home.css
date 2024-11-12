@@ -3,80 +3,84 @@
     font-family: Arial, sans-serif;
 }
 
-#home-container .menu-container {
+.menu-container {
     background-color: rgb(147, 198, 234);
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 1rem 0;
 }
 
-#home-container .menu .txt {
+.menu .txt {
     font-size: large;
 }
 
-#home-container .bts {
+.bts {
     margin: 1rem;
     display: flex;
     gap: 10px;
 }
 
-#home-container .button {
+.button {
     background-color: #04AA6D;
     border: none;
     color: white;
-    padding: 15px 32px;
-    font-size: 16px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
     cursor: pointer;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
 
-#home-container .button a {
-    color: white;
-    text-decoration: none;
+.button:hover {
+    background-color: #037a4d;
 }
 
-#home-container .main-content .about {
+.main-content .about {
     margin: 2rem;
 }
 
-#home-container .about .title {
+.about .title {
     font-size: large;
     margin-left: 2rem;
 }
 
-#home-container .about .description {
+.about .description {
     font-size: large;
     margin-left: 2rem;
 }
 
-#home-container .about-img {
-    margin-right: 5rem;
+.about-img {
+    margin-right: 2rem;
     float: right;
+    max-width: 100%;
+    height: auto;
 }
 
-#home-container .products {
+.products {
     margin: 2rem;
     text-align: center;
 }
 
-#home-container .product-list {
+.product-list {
     display: flex;
     gap: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-#home-container .product {
+.product {
     font-size: large;
     text-align: center;
 }
 
-#home-container .product img {
+.product img {
     width: 100%;
     height: auto;
     max-width: 400px;
 }
 
-#home-container .contact {
+.contact {
     background-color: rgb(147, 198, 234);
     text-align: center;
     padding: 2rem;

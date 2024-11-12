@@ -1,30 +1,55 @@
 import "../Login/Login.css";
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+    const [nome, setNome] = useState("");
+    const [senha, setSenha] = useState("");
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        navigate("/homes");
+    };
+
     return (
         <div id="login-container">
             <h2 className="login-title">Login</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <p id="login-info-text">Digite os seus dados de acesso.</p>
                 
                 <label className="login-label" htmlFor="nome">
                     Nome:
-                    <textarea id="nome" minLength="20" maxLength="27"></textarea>
+                    <input
+                        type="text"
+                        id="nome"
+                        value={nome}
+                        onChange={(e) => setNome(e.target.value)}
+                        minLength="20"
+                        maxLength="27"
+                        required
+                    />
                 </label>
                 
                 <label className="login-label" htmlFor="senha">
                     Senha:
-                    <textarea id="senha" minLength="6" maxLength="8"></textarea>
+                    <input
+                        type="password"
+                        id="senha"
+                        value={senha}
+                        onChange={(e) => setSenha(e.target.value)}
+                        minLength="6"
+                        maxLength="8"
+                        required
+                    />
                 </label>
                 
-                <button className="login-button">
-                    <Link to="/homes">Entrar</Link>
+                <button type="submit" className="login-button">
+                    Entrar
                 </button>
                 
-                <button className="login-button">
-                    <Link to="/">Início</Link>
+                <button type="button" className="login-button" onClick={() => navigate("/")}>
+                    Início
                 </button>
             </form>
         </div>
