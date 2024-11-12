@@ -15,7 +15,7 @@ const Cadastro = () => {
           <input
             id="nome"
             type="text"
-            minLength="20"
+            minLength="4"
             maxLength="27"
             required
           />

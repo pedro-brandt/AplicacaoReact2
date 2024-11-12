@@ -25,7 +25,7 @@ const Login = () => {
                         id="nome"
                         value={nome}
                         onChange={(e) => setNome(e.target.value)}
-                        minLength="20"
+                        minLength="4"
                         maxLength="27"
                         required
                     />
