@@ -1,0 +1,83 @@
+#home-container {
+    background-color: rgb(81, 255, 197);
+    font-family: Arial, sans-serif;
+}
+
+#home-container .menu-container {
+    background-color: rgb(147, 198, 234);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#home-container .menu .txt {
+    font-size: large;
+}
+
+#home-container .bts {
+    margin: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+#home-container .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#home-container .button a {
+    color: white;
+    text-decoration: none;
+}
+
+#home-container .main-content .about {
+    margin: 2rem;
+}
+
+#home-container .about .title {
+    font-size: large;
+    margin-left: 2rem;
+}
+
+#home-container .about .description {
+    font-size: large;
+    margin-left: 2rem;
+}
+
+#home-container .about-img {
+    margin-right: 5rem;
+    float: right;
+}
+
+#home-container .products {
+    margin: 2rem;
+    text-align: center;
+}
+
+#home-container .product-list {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#home-container .product {
+    font-size: large;
+    text-align: center;
+}
+
+#home-container .product img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+#home-container .contact {
+    background-color: rgb(147, 198, 234);
+    text-align: center;
+    padding: 2rem;
+}
