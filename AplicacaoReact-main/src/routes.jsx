@@ -19,6 +19,7 @@ function AppRoutes() {
                 <Route path="*" element={<div>Página não encontrada</div>} />
             </Routes>
         </Router>
+        //tentei bubstituir por switch
     );
 }
 
