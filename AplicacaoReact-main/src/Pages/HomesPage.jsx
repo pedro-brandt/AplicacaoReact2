@@ -1,7 +1,9 @@
 import React from "react";
-import Home from "../Components/Homes/Homes"
+import Homes from "../Components/Homes/Homes"
 
 const HomesPage = () => {
-    <Home/>
+    return (
+        <Homes></Homes>
+    )
 }
 export default HomesPage
