@@ -1,7 +1,6 @@
 import "../Homes/Homes.css"
-import React from "react";
-
 import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Homes() {
   return (
@@ -67,7 +66,7 @@ export default function Homes() {
         <br></br>
         </p>
       </div>
-      <h2>Veja a seguir os nossos produtos:</h2>
+      <h2>Veja a seguir algum de nossos produtos:</h2>
       <br />
       <div className="App2">
         <br></br>
