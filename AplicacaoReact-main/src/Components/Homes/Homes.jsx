@@ -72,17 +72,17 @@ export default function Homes() {
         <br></br>
         <br></br>
         <div  className="Alimentos">
-          <img 
+          <img
             src="https://jasminealimentos.com/wp-content/uploads/2017/07/como-escolher-os-melhores-alimentos-1.jpg" width={400} height={200}alt="Alimentos"
           />
           <p>Alimentos</p>
         </div>
         <div className="Carros">
-          <img 
+          <img
             src="https://bahiaeconomica.com.br/wp/wp-content/uploads/2024/09/patio-da-vports-recebe-carros-importados-2075839.webp" width={400} height={200}alt="Carros"
           />
           <p>Carros</p>
-        </div> 
+        </div>
         <div className="Joias">
           <img
             src="https://blog.damasemijoias.com.br/wp-content/uploads/2017/08/como-organizar-um-estoque-de-semijoias-aprenda-810x485.jpeg" width={400} height={200}alt="Joias"
@@ -91,6 +91,14 @@ export default function Homes() {
         </div>
       </div>
       <br></br>
+      <div className="precos">
+        <h2>Nossos preços em media(Valor Unitario):</h2>
+        <br></br>
+        <br></br>
+        <p>Estoque Pequeno: R$ 130 a R$ 150</p>
+        <p>Estoque Médio: R$ 170 a 200</p>
+        <p>Estoque Alto:	R$ 220 a R$ 255</p>
+      </div>
       <div className="contato">
         <h2>Entre em contato conosco em:</h2>
         <br></br>
